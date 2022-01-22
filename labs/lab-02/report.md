@@ -1,2 +1,9 @@
 ## Part 1
-lab2part1 repository: https://github.com/jweiss0/lab2part1
+lab2part1 repository: https://github.com/jweiss0/lab2part1 \
+`gitk`
+![image](https://user-images.githubusercontent.com/18493608/150658006-61065d61-086d-4d58-af88-b859f378f933.png)
+`gitk --all`
+![image](https://user-images.githubusercontent.com/18493608/150658009-76f1eaf3-7c19-4601-8494-24954c8a7098.png)
+`git log --graph --oneline --decorate`\
+![image](https://user-images.githubusercontent.com/18493608/150658011-c5e23835-ad20-48ae-acaa-49bafbee524b.png)
+
