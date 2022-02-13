@@ -54,7 +54,7 @@ target_include_directories(Tutorial PUBLIC
                            )
 ```
 Running Tutorial Code:
-img here
+![Step1](https://user-images.githubusercontent.com/18493608/153774142-35b4eafb-2609-446b-8aee-a9acc039bcba.png)
 
 ## Step 2
 TutorialConfig.h.in:
@@ -136,7 +136,7 @@ target_include_directories(Tutorial PUBLIC
 
 ```
 Running Tutorial Code:
-img here
+![Step2](https://user-images.githubusercontent.com/18493608/153774156-ff2c181e-3d52-4586-843b-a6473a902af3.png)
 
 ## Step 3
 CMakeLists.txt:
@@ -183,7 +183,7 @@ target_include_directories(MathFunctions
           )
 ```
 Running Tutorial Code:
-img here
+![Step3](https://user-images.githubusercontent.com/18493608/153774165-daa189d7-e298-4d73-a735-34ac5458dc2f.png)
 
 ## Step 4
 CMakeLists.txt
@@ -268,7 +268,11 @@ install(TARGETS MathFunctions DESTINATION lib)
 install(FILES MathFunctions.h DESTINATION include)
 ```
 Running ctest -VV:
-img here
+![Step4-1](https://user-images.githubusercontent.com/18493608/153774186-3f4d8c6c-6975-41ec-8329-17929df2ea42.png)
+![Step4-2](https://user-images.githubusercontent.com/18493608/153774193-8b5e7490-10a0-4e9b-91a2-d72f75d76939.png)
+![Step4-3](https://user-images.githubusercontent.com/18493608/153774198-a6c4e3c2-6ecf-4b73-a750-c86b2499e755.png)
+![Step4-4](https://user-images.githubusercontent.com/18493608/153774205-5c5eb2c8-70c2-44c7-8c4a-c5bd66f34dd8.png)
+![Step4-5](https://user-images.githubusercontent.com/18493608/153774217-b1a3df07-970a-4984-91d8-a5e6f5e1971e.png)
 
 ## Step 5
 CMakeLists.txt
@@ -375,7 +379,7 @@ install(TARGETS MathFunctions DESTINATION lib)
 install(FILES MathFunctions.h DESTINATION include)
 ```
 Running Tutorial Code:
-img here
+![Step5](https://user-images.githubusercontent.com/18493608/153774232-2b77ba9d-8e86-4580-884b-a1f6f01bc7ba.png)
 
 ## Lab-BuildSystemsExample
 Makefile
@@ -410,7 +414,48 @@ dynamic_block: program.o libshared.so
 	cc program.o libshared.so -o dynamic_block -Wl,-rpath='$$ORIGIN'
 ```
 Size of `static_block`: 16856 bytes\
-Size of `dynamic_block`: 16696 bytes
+Size of `dynamic_block`: 16696 bytes\
+Results:\
+`$ ./static_block`
+```
+d y n a m i c   o r   s t a t i c 
+y n a m i c   o r   s t a t i c d
+n a m i c   o r   s t a t i c d y
+a m i c   o r   s t a t i c d y n
+m i c   o r   s t a t i c d y n a
+i c   o r   s t a t i c d y n a m
+c   o r   s t a t i c d y n a m i
+  o r   s t a t i c d y n a m i c
+o r   s t a t i c d y n a m i c
+r   s t a t i c d y n a m i c   o
+  s t a t i c d y n a m i c   o r
+s t a t i c d y n a m i c   o r
+t a t i c d y n a m i c   o r   s
+a t i c d y n a m i c   o r   s t
+t i c d y n a m i c   o r   s t a
+i c d y n a m i c   o r   s t a t
+c d y n a m i c   o r   s t a t i
+```
+`$ ./dynamic_block`
+```
+d y n a m i c   o r   s t a t i c 
+y n a m i c   o r   s t a t i c d
+n a m i c   o r   s t a t i c d y
+a m i c   o r   s t a t i c d y n
+m i c   o r   s t a t i c d y n a
+i c   o r   s t a t i c d y n a m
+c   o r   s t a t i c d y n a m i
+  o r   s t a t i c d y n a m i c
+o r   s t a t i c d y n a m i c
+r   s t a t i c d y n a m i c   o
+  s t a t i c d y n a m i c   o r
+s t a t i c d y n a m i c   o r
+t a t i c d y n a m i c   o r   s
+a t i c d y n a m i c   o r   s t
+t i c d y n a m i c   o r   s t a
+i c d y n a m i c   o r   s t a t
+c d y n a m i c   o r   s t a t i
+```
 CMakeLists.txt
 ```
 cmake_minimum_required(VERSION 3.10)
@@ -476,4 +521,3 @@ t i c d y n a m i c   o r   s t a
 i c d y n a m i c   o r   s t a t
 c d y n a m i c   o r   s t a t i
 ```
-
