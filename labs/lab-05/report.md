@@ -53,7 +53,7 @@ target_include_directories(Tutorial PUBLIC
                            "${PROJECT_BINARY_DIR}"
                            )
 ```
-Running Tutorial Code:
+Running Tutorial Code:\
 ![Step1](https://user-images.githubusercontent.com/18493608/153774142-35b4eafb-2609-446b-8aee-a9acc039bcba.png)
 
 ## Step 2
@@ -135,7 +135,7 @@ target_include_directories(Tutorial PUBLIC
                            )
 
 ```
-Running Tutorial Code:
+Running Tutorial Code:\
 ![Step2](https://user-images.githubusercontent.com/18493608/153774156-ff2c181e-3d52-4586-843b-a6473a902af3.png)
 
 ## Step 3
@@ -182,7 +182,7 @@ target_include_directories(MathFunctions
           INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
           )
 ```
-Running Tutorial Code:
+Running Tutorial Code:\
 ![Step3](https://user-images.githubusercontent.com/18493608/153774165-daa189d7-e298-4d73-a735-34ac5458dc2f.png)
 
 ## Step 4
@@ -267,7 +267,7 @@ target_include_directories(MathFunctions
 install(TARGETS MathFunctions DESTINATION lib)
 install(FILES MathFunctions.h DESTINATION include)
 ```
-Running ctest -VV:
+Running ctest -VV:\
 ![Step4-1](https://user-images.githubusercontent.com/18493608/153774186-3f4d8c6c-6975-41ec-8329-17929df2ea42.png)
 ![Step4-2](https://user-images.githubusercontent.com/18493608/153774193-8b5e7490-10a0-4e9b-91a2-d72f75d76939.png)
 ![Step4-3](https://user-images.githubusercontent.com/18493608/153774198-a6c4e3c2-6ecf-4b73-a750-c86b2499e755.png)
@@ -378,7 +378,7 @@ endif()
 install(TARGETS MathFunctions DESTINATION lib)
 install(FILES MathFunctions.h DESTINATION include)
 ```
-Running Tutorial Code:
+Running Tutorial Code:\
 ![Step5](https://user-images.githubusercontent.com/18493608/153774232-2b77ba9d-8e86-4580-884b-a1f6f01bc7ba.png)
 
 ## Lab-BuildSystemsExample
