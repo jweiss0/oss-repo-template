@@ -13,3 +13,4 @@ Discord Handle: jeremy#7751
 [Lab 3](labs/lab-03/report.md)
 [Lab 4](labs/lab-04/report.md)
 [Lab 5](labs/lab-05/report.md)
+[Lab 6](labs/lab-06/report.md)
