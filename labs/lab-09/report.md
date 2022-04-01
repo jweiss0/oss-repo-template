@@ -24,6 +24,7 @@ Browser at `http://localhost:5984`:
 ![03-04](https://user-images.githubusercontent.com/18493608/161303025-a35540c0-eade-4026-bffe-cd9e856b2d02.png)
 ![03-05](https://user-images.githubusercontent.com/18493608/161303050-e674e4fa-37da-461d-9956-15d1c5731c35.png)
 ![03-06](https://user-images.githubusercontent.com/18493608/161303058-d2c68d41-0df5-4692-9cbf-a43db4bb10e5.png)
+![image](https://user-images.githubusercontent.com/18493608/161303977-e5f1db4a-0257-428e-8a85-36df51457300.png)
 ![03-07](https://user-images.githubusercontent.com/18493608/161303061-9658cdf3-96b2-4332-b726-045272b510c6.png)
 
 ## Checkpoint 4
